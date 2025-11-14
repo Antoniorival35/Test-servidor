@@ -1,6 +1,6 @@
     //arquivo App.jsx
 
-    import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   const [status, setStatus] = useState('Verificando conexão...');
@@ -13,9 +13,9 @@ function App() {
           throw new Error(`Erro: ${resposta.status}`);
         }
         const dados = await resposta.json();
-        setStatus(`Conexão OK! Usuários encontrados: ${dados.length}`);
+        setStatus('Conexão OK!');
       } catch (erro) {
-        setStatus(`Falha na conexão: ${erro.message}`);
+        setStatus('Falha na conexão: ${erro.message}');
       }
     };
 
