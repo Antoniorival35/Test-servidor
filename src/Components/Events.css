@@ -1,0 +1,18 @@
+.meu-botao {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Cor do texto branca */
+  padding: 10px 20px; /* Espaçamento interno (10px em cima/baixo, 20px nos lados) */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Cantos levemente arredondados */
+  cursor: pointer; /* Mostra um cursor de mão ao passar o mouse */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+.meu-botao:hover {
+  background-color: #45a049; /* Cor de fundo mais escura no hover */
+}
+
+.meu-botao:focus {
+  outline: 2px solid #2196F3; /* Contorno azul ao focar com o teclado */
+  outline-offset: 2px;
+}
